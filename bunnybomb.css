@@ -229,22 +229,6 @@ html {
     height: 100%
 }
 
-body {
-    min-height: 100%;
-    color: #333;
-    background-color: #fff;
-    margin: 0;
-    font-family: Arial,sans-serif;
-    font-size: 14px;
-    line-height: 20px
-}
-
-img {
-    max-width: 100%;
-    vertical-align: middle;
-    display: inline-block
-}
-
 html.w-mod-touch * {
     background-attachment: scroll!important
 }
@@ -388,11 +372,6 @@ h1,h2,h3,h4,h5,h6 {
     font-weight: 700
 }
 
-h1 {
-    margin-top: 20px;
-    font-size: 38px;
-    line-height: 44px
-}
 
 h2 {
     margin-top: 20px;
@@ -437,10 +416,6 @@ blockquote {
     line-height: 22px
 }
 
-figure {
-    margin: 0 0 10px
-}
-
 figcaption {
     text-align: center;
     margin-top: 5px
@@ -480,12 +455,6 @@ ul,ol {
     position: absolute;
     top: 0;
     left: 0
-}
-
-fieldset {
-    border: 0;
-    margin: 0;
-    padding: 0
 }
 
 button,[type=button],[type=reset] {
@@ -3430,78 +3399,6 @@ textarea.w-input,textarea.w-select {
     }
 }
 
-body {
-    background-color: var(--background);
-    color: var(--black-1);
-    font-family: Manrope,sans-serif;
-    font-size: .9vw;
-    line-height: 1.2em
-}
-
-h1 {
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 5em;
-    font-weight: 600;
-    line-height: 1.1em
-}
-
-h2 {
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 4em;
-    font-weight: 500;
-    line-height: 1.1em
-}
-
-h3 {
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 3em;
-    font-weight: 600;
-    line-height: 1.1em
-}
-
-h4 {
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 2.5em;
-    font-weight: 600;
-    line-height: 1.1em
-}
-
-h5 {
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 2em;
-    font-weight: 500;
-    line-height: 1.1em
-}
-
-h6 {
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 1.8em;
-    font-weight: 600;
-    line-height: 1.1em
-}
-
-p {
-    margin-bottom: 0;
-    font-size: 1.1em;
-    line-height: 1.5em
-}
-
-a {
-    color: var(--blue-2);
-    text-decoration: none
-}
-
-ul,ol {
-    margin-top: 2em;
-    margin-bottom: 2em;
-    padding-left: 3em
-}
 
 li {
     margin-bottom: .7em;
@@ -3509,29 +3406,8 @@ li {
     line-height: 1.2em
 }
 
-img {
-    max-width: 100%;
-    display: inline-block
-}
-
-label {
-    margin-bottom: 5px;
-    font-weight: 500;
-    display: block
-}
-
 strong {
     font-weight: 600
-}
-
-blockquote {
-    color: #0c389f;
-    border-left: 5px solid #064dfa;
-    margin-top: 1.6em;
-    margin-bottom: 1.6em;
-    padding: 1em 1em 1em 1.5em;
-    font-size: 1.3em;
-    line-height: 1.5em
 }
 
 .section {
@@ -3600,10 +3476,6 @@ blockquote {
     z-index: 30;
     background-color: var(--black-2);
     color: var(--white)
-}
-
-.section.with-bg-blue-3 {
-    background-color: var(--blue-4)
 }
 
 .section.with-bg-gradient-brown {
